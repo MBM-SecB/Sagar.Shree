@@ -1,0 +1,13 @@
+/home/shree/Dot Net/MBM-B/CSharpBasics/bin/Debug/netcoreapp3.1/CSharpBasics
+/home/shree/Dot Net/MBM-B/CSharpBasics/bin/Debug/netcoreapp3.1/CSharpBasics.deps.json
+/home/shree/Dot Net/MBM-B/CSharpBasics/bin/Debug/netcoreapp3.1/CSharpBasics.runtimeconfig.json
+/home/shree/Dot Net/MBM-B/CSharpBasics/bin/Debug/netcoreapp3.1/CSharpBasics.runtimeconfig.dev.json
+/home/shree/Dot Net/MBM-B/CSharpBasics/bin/Debug/netcoreapp3.1/CSharpBasics.dll
+/home/shree/Dot Net/MBM-B/CSharpBasics/bin/Debug/netcoreapp3.1/CSharpBasics.pdb
+/home/shree/Dot Net/MBM-B/CSharpBasics/obj/Debug/netcoreapp3.1/CSharpBasics.csprojAssemblyReference.cache
+/home/shree/Dot Net/MBM-B/CSharpBasics/obj/Debug/netcoreapp3.1/CSharpBasics.AssemblyInfoInputs.cache
+/home/shree/Dot Net/MBM-B/CSharpBasics/obj/Debug/netcoreapp3.1/CSharpBasics.AssemblyInfo.cs
+/home/shree/Dot Net/MBM-B/CSharpBasics/obj/Debug/netcoreapp3.1/CSharpBasics.csproj.CoreCompileInputs.cache
+/home/shree/Dot Net/MBM-B/CSharpBasics/obj/Debug/netcoreapp3.1/CSharpBasics.dll
+/home/shree/Dot Net/MBM-B/CSharpBasics/obj/Debug/netcoreapp3.1/CSharpBasics.pdb
+/home/shree/Dot Net/MBM-B/CSharpBasics/obj/Debug/netcoreapp3.1/CSharpBasics.genruntimeconfig.cache
