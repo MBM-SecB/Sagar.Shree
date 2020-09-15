@@ -1,0 +1,13 @@
+/home/shree/Dot Net/MBM-B/Exercise/obj/Debug/netcoreapp3.1/Exercise.csprojAssemblyReference.cache
+/home/shree/Dot Net/MBM-B/Exercise/obj/Debug/netcoreapp3.1/Exercise.AssemblyInfoInputs.cache
+/home/shree/Dot Net/MBM-B/Exercise/obj/Debug/netcoreapp3.1/Exercise.AssemblyInfo.cs
+/home/shree/Dot Net/MBM-B/Exercise/obj/Debug/netcoreapp3.1/Exercise.csproj.CoreCompileInputs.cache
+/home/shree/Dot Net/MBM-B/Exercise/bin/Debug/netcoreapp3.1/Exercise
+/home/shree/Dot Net/MBM-B/Exercise/bin/Debug/netcoreapp3.1/Exercise.deps.json
+/home/shree/Dot Net/MBM-B/Exercise/bin/Debug/netcoreapp3.1/Exercise.runtimeconfig.json
+/home/shree/Dot Net/MBM-B/Exercise/bin/Debug/netcoreapp3.1/Exercise.runtimeconfig.dev.json
+/home/shree/Dot Net/MBM-B/Exercise/bin/Debug/netcoreapp3.1/Exercise.dll
+/home/shree/Dot Net/MBM-B/Exercise/bin/Debug/netcoreapp3.1/Exercise.pdb
+/home/shree/Dot Net/MBM-B/Exercise/obj/Debug/netcoreapp3.1/Exercise.dll
+/home/shree/Dot Net/MBM-B/Exercise/obj/Debug/netcoreapp3.1/Exercise.pdb
+/home/shree/Dot Net/MBM-B/Exercise/obj/Debug/netcoreapp3.1/Exercise.genruntimeconfig.cache
