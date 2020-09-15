@@ -11,7 +11,7 @@ class Assignment
         Console.WriteLine("Enter first number");
         int num1 = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("Enter first number");
+        Console.WriteLine("Enter second number");
         int num2 = Convert.ToInt32(Console.ReadLine());
 
         bool sc = assignment.sumChecker(num1, num2);
