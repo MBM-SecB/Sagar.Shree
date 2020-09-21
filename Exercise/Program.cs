@@ -4,9 +4,14 @@ namespace Exercise
 {
     class Program
     {
-        static void Main1(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            string p = "@@";
+            for (int i = 0; i < 6; i++)
+            {
+                Console.WriteLine();
+                p = p + "@";
+            }
         }
     }
 }

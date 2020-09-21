@@ -3,7 +3,7 @@ using System;
 
 class Assignment
 {
-    static void Main()
+    static void Main2()
 
     {
         Assignment assignment = new Assignment();
