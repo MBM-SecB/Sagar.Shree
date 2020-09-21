@@ -3,50 +3,22 @@
 
 class Program
 {
-    static void Main1()
+    static void Main()
 
     {
-        // Console.WriteLine("Sagar Shree");
-        // string x = Console.ReadLine();
-        // Console.WriteLine("Hi, " + x);
+        var square1 = new Square(side: 5.9);
+        var square2 = new Square(side: 15.9);
+        var rect1 = new Rectangle(length: 5.9, breadth: 10.5);
 
-        //#value types
-
-
-        //# numbers
-        // byte a = 255;
-        // // byte cannot store more than 255
-        // short b = 32454;
-        // int c = 3637637;
-        // long d = 76273628763287;
-
-        // // ## floating point
-
-        // float e = 32565.456f;
-        // double f = 3535.33663;
-        // decimal g = 2656.275723572565m;
-
-        // // 1.2 Char type
-        // char h = 'h';
-
-        // //1.3 Boolen
-        // bool i = true;
-
-        // //2. Reference Type
-        // string j = "ashagsh";
-        // object k = 25725272.272;
+        var x = square1.GetArea();
+        var y = square2.GetArea();
 
 
+        var z = rect1.GetArea();
+
+        Console.WriteLine($"Area:{x}");
 
 
-
-    }
-
-
-    (int, string) GetName(int x, float y)
-    {
-        return (23456, "hsdhsd");
     }
 
 }
-
