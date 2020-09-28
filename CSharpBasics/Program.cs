@@ -22,7 +22,6 @@ class Program
         // fileIO.LearnFileReading();
         // fileIO.LearnFileWriting();
         // fileIO.LearnFileInfo();
-        fileIO.FileIoAssignment();
 
 
 
