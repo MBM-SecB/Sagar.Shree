@@ -47,16 +47,16 @@ class Program
 
         // Quantifiers 
 
-        var result7 = numbers.Any(numbers => numbers % 2 == 0);
+        var result8 = numbers.Any(numbers => numbers % 2 == 0);
 
-        var result8 = numbers.All(num => num % 2 == 0);
+        var result9 = numbers.All(num => num % 2 == 0);
 
-        var result9 = numbers.Contains(23);
+        var result10 = numbers.Contains(23);
 
         //Generations: range.repeat
 
-        var result10 = Enumerable.Range(1, 1000);
-        var result10 = Enumerable.Repeat("Hello World", 20);
+        var result11 = Enumerable.Range(1, 1000);
+        var result12 = Enumerable.Repeat("Hello World", 20);
 
 
 
@@ -68,7 +68,7 @@ class Program
 
     void LearnLinqComplexCollection()
     {
-        List<Country> countries = new List<Country>();
+        // List<Country> countries = new List<Country>();
 
 
         Country c1 = new Country("Nepal", "Kathmandu", "Asia", 3636536356);
@@ -93,7 +93,7 @@ class Program
 
         //Hw: List all european countries in asc order where popn < 500k
 
-        var res2 = from country in countries
+        var res3 = from country in countries
                    orderby country.Population
                    where country.Population < 50000
                    select country.Name;
