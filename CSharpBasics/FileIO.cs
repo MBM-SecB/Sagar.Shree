@@ -53,19 +53,5 @@ public class FileIO
     //HW: Create a folder "Nepal" within that create 10 sufolders
     // Every subfolders should contain a file Test.txt with subfolder name as a content
 
-    public void FileIoAssignment()
-    {
-        string rootFolderPath = "Nepal";
-        string[] subFolderNames = { "Dang", "Salyan", "Rolpa", "Rukum", "Pyuthan", "Kathmandu", "Kaski", "Lalitpur", "Bhaktapur", "Dhading" };
-        Directory.CreateDirectory(rootFolderPath);
 
-        foreach (string subfolderName in subFolderNames)
-        {
-            Directory.CreateDirectory($"{rootFolderPath}/{subfolderName}");
-            string filePath = $"{rootFolderPath}/{subfolderName}/Text.txt";
-            string fileContent = subfolderName;
-            File.WriteAllText(filePath, fileContent);
-
-        }
-    }
 }

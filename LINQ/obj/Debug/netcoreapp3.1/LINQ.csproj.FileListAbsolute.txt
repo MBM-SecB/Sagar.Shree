@@ -1,0 +1,13 @@
+/home/shree/Dot Net/MBM-B/LINQ/bin/Debug/netcoreapp3.1/LINQ
+/home/shree/Dot Net/MBM-B/LINQ/bin/Debug/netcoreapp3.1/LINQ.deps.json
+/home/shree/Dot Net/MBM-B/LINQ/bin/Debug/netcoreapp3.1/LINQ.runtimeconfig.json
+/home/shree/Dot Net/MBM-B/LINQ/bin/Debug/netcoreapp3.1/LINQ.runtimeconfig.dev.json
+/home/shree/Dot Net/MBM-B/LINQ/bin/Debug/netcoreapp3.1/LINQ.dll
+/home/shree/Dot Net/MBM-B/LINQ/bin/Debug/netcoreapp3.1/LINQ.pdb
+/home/shree/Dot Net/MBM-B/LINQ/obj/Debug/netcoreapp3.1/LINQ.csprojAssemblyReference.cache
+/home/shree/Dot Net/MBM-B/LINQ/obj/Debug/netcoreapp3.1/LINQ.AssemblyInfoInputs.cache
+/home/shree/Dot Net/MBM-B/LINQ/obj/Debug/netcoreapp3.1/LINQ.AssemblyInfo.cs
+/home/shree/Dot Net/MBM-B/LINQ/obj/Debug/netcoreapp3.1/LINQ.csproj.CoreCompileInputs.cache
+/home/shree/Dot Net/MBM-B/LINQ/obj/Debug/netcoreapp3.1/LINQ.dll
+/home/shree/Dot Net/MBM-B/LINQ/obj/Debug/netcoreapp3.1/LINQ.pdb
+/home/shree/Dot Net/MBM-B/LINQ/obj/Debug/netcoreapp3.1/LINQ.genruntimeconfig.cache

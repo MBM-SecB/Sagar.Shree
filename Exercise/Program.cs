@@ -6,12 +6,8 @@ namespace Exercise
     {
         static void Main2()
         {
-            string p = "@@";
-            for (int i = 0; i < 6; i++)
-            {
-                Console.WriteLine();
-                p = p + "@";
-            }
+            FileIoHw fileIoHw = new FileIoHw();
+            fileIoHw.FileIoAssignment();
         }
     }
 }

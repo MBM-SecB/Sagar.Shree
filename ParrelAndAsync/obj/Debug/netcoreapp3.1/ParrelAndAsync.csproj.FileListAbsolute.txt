@@ -1,0 +1,13 @@
+/home/shree/Dot Net/MBM-B/ParrelAndAsync/bin/Debug/netcoreapp3.1/ParrelAndAsync
+/home/shree/Dot Net/MBM-B/ParrelAndAsync/bin/Debug/netcoreapp3.1/ParrelAndAsync.deps.json
+/home/shree/Dot Net/MBM-B/ParrelAndAsync/bin/Debug/netcoreapp3.1/ParrelAndAsync.runtimeconfig.json
+/home/shree/Dot Net/MBM-B/ParrelAndAsync/bin/Debug/netcoreapp3.1/ParrelAndAsync.runtimeconfig.dev.json
+/home/shree/Dot Net/MBM-B/ParrelAndAsync/bin/Debug/netcoreapp3.1/ParrelAndAsync.dll
+/home/shree/Dot Net/MBM-B/ParrelAndAsync/bin/Debug/netcoreapp3.1/ParrelAndAsync.pdb
+/home/shree/Dot Net/MBM-B/ParrelAndAsync/obj/Debug/netcoreapp3.1/ParrelAndAsync.csprojAssemblyReference.cache
+/home/shree/Dot Net/MBM-B/ParrelAndAsync/obj/Debug/netcoreapp3.1/ParrelAndAsync.AssemblyInfoInputs.cache
+/home/shree/Dot Net/MBM-B/ParrelAndAsync/obj/Debug/netcoreapp3.1/ParrelAndAsync.AssemblyInfo.cs
+/home/shree/Dot Net/MBM-B/ParrelAndAsync/obj/Debug/netcoreapp3.1/ParrelAndAsync.csproj.CoreCompileInputs.cache
+/home/shree/Dot Net/MBM-B/ParrelAndAsync/obj/Debug/netcoreapp3.1/ParrelAndAsync.dll
+/home/shree/Dot Net/MBM-B/ParrelAndAsync/obj/Debug/netcoreapp3.1/ParrelAndAsync.pdb
+/home/shree/Dot Net/MBM-B/ParrelAndAsync/obj/Debug/netcoreapp3.1/ParrelAndAsync.genruntimeconfig.cache
