@@ -34,10 +34,10 @@ public class Employee
         };
         var employee4 = new Employee
         {
-            FirstName = "Hari ",
-            Surname = "Nepal",
-            Address = "Kathmandu",
-            Salary = 20000,
+            FirstName = "Hari",
+            Surname = "hamal",
+            Address = "Itahari",
+            Salary = 12000,
         };
         var employee5 = new Employee
         {
