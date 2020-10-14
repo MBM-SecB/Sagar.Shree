@@ -37,3 +37,4 @@
 /home/shree/Dot Net/MBM-B/EmployeeManagement/obj/Debug/netcoreapp3.1/EmployeeManagement.csproj.CopyComplete
 /home/shree/Dot Net/MBM-B/EmployeeManagement/obj/Debug/netcoreapp3.1/Razor/Views/Employee/index.cshtml.g.cs
 /home/shree/Dot Net/MBM-B/EmployeeManagement/obj/Debug/netcoreapp3.1/Razor/Views/Employee/details.cshtml.g.cs
+/home/shree/Dot Net/MBM-B/EmployeeManagement/obj/Debug/netcoreapp3.1/Razor/Views/Employee/Add.cshtml.g.cs

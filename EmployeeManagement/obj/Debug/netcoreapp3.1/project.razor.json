@@ -14427,6 +14427,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Employee/Add.cshtml",
+      "TargetPath": "Views\\Employee\\Add.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"

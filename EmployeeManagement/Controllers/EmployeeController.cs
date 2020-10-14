@@ -21,5 +21,20 @@ public class EmployeeController : Controller
 
         return View(employee);
     }
+
+
+    public ActionResult Add()
+    {
+
+
+        return View();
+    }
+    [HttpPost]
+    public ActionResult<bool> Add(Employee employee)//Model Binding
+    {
+
+
+        return true;
+    }
 }
 
