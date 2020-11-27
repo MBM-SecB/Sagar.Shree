@@ -12,6 +12,7 @@ public class Employee
 
     public string Surname { get; set; }
 
+    [Required(ErrorMessage = "Address is required.")]
 
     public string Address { get; set; }
     [Required(ErrorMessage = "Gender is required.")]
