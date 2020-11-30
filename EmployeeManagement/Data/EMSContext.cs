@@ -1,16 +1,16 @@
 using Microsoft.EntityFrameworkCore;
-public class EMSContext: DbContext
-namespace  EmployeeManagement.Data
+
+namespace EmployeeManagement.Data
 {
+    public class EMSContext : DbContext
     {
-    public EMSContext (DbContextOptions<EMSContext> options): base(optons){
+        public EMSContext()
+        {
+        }
+        public EMSContext(DbContextOptions<EMSContext> options) : base(options)
+        {
+        }
 
-    }
-    {
         public DbSet<Employee> Employees { get; set; }
-        
     }
-
 }
-}
-
