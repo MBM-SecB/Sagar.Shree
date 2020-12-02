@@ -1,43 +1,39 @@
 @model Employee
+
 @{
     ViewData["Title"] = "Add New";
 }
-<h1>Add Employee...</h1>
+
+<h1>Add new employee</h1>
+
 @* tag helpers *@
 
 <form asp-controller="Employee" asp-action="Add" method="POST">
     <div class="form-group">
         <label asp-for="FirstName"></label>
         <input type="text" class="form-control" asp-for="FirstName" placeholder="First Name">
-        <span asp-validation-for="FirstName" class='text-danger'></span>
+        <span asp-validation-for="FirstName" class="text-danger"></span>
     </div>
+
     <div class="form-group">
         <label asp-for="Surname"></label>
         <input type="text" class="form-control" asp-for="Surname" placeholder="Last Name">
-        <span asp-validation-for="Surname" class='text-danger'></span>
-
+        <span asp-validation-for="Surname" class="text-danger"></span>
     </div>
+
     <div class="form-group">
         <label asp-for="Address"></label>
-        <textarea type="text" class="form-control" placeholder="Address"></textarea>
+        <textarea class="form-control" asp-for="Address" placeholder="Address"></textarea>
     </div>
+
     <div class="form-group">
         <label asp-for="Gender"></label>
-        <br>
-        <input type="radio" id="male" asp-for="Gender" name="gender" value="male">
-        <label for="male">Male</label><br>
-        <input type="radio" id="female" asp-for="Gender" name="gender" value="female">
-        <label for="female">Female</label><br>
-        <input type="radio" id="other" asp-for="Gender" name="gender" value="other">
-        <label for="other">Other</label>
-        <span asp-validation-for="Gender" class='text-danger'></span>
-
+        <input type="text" class="form-control" asp-for="Gender" placeholder="Gender">
     </div>
+
     <div class="form-group">
         <label asp-for="Salary"></label>
         <input type="number" class="form-control" asp-for="Salary" placeholder="Salary">
-        <span asp-validation-for="Salary" class='text-danger'></span>
-
     </div>
 
     <button type="submit" class="btn btn-primary">Add Employee</button>

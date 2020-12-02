@@ -1,41 +1,44 @@
 @model List<Employee>
 
-  @{
+@{
   ViewData["Title"] = "Employee Home";
 }
 
-<h1>Displaying all employees...</h1>
+<h1>Displying all employees...</h1>
 
-<table class="table ">
+<table class="table">
   <thead class="thead-dark">
     <tr>
-      <th scope="col">No.</th>
-      <th scope="col">First Name</th>
-      <th scope="col">Last Name</th>
-      <th scope="col">Gender</th>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
       <th scope="col">Address</th>
+      <th scope="col">Gender</th>
       <th scope="col">Salary</th>
-
     </tr>
   </thead>
   <tbody>
-    @for(int i = 0; i<Model.Count; i++)
+    @for (int i = 0; i < Model.Count; i++)
     {
-        <tr>
-          <td>@(i+1)</td>
-          <td>
-            @{
-              string firstName = Model[i].FirstName;
-            }
-            <a href="/employee/details?firstName=@firstName">@firstName</a>
-            </td>
-          <td>@Model[i].Surname</td>
-          <td>@Model[i].Gender</td>
-          <td>@Model[i].Address</td>
-          <td>@Model[i].Salary</td>
+      <tr>
+        <td>@(i+1)</td>
+        <td>
+          @{
+            string fn = Model[i].FirstName;
+          }
+          <a href="/employee/detail?id=@Model[i].Id">@fn</a>
+        </td>
+        <td>@Model[i].Surname</td>
+        <td>@Model[i].Address</td>
+        <td>@Model[i].Gender</td>
+        <td>@Model[i].Salary</td>
 
-        </tr>
+        <form asp-controller="Employee" asp-action="Delete" asp-route-id="@Model[i].Id" method="POST">
+          <td>
+            <input type="submit" value="Delete">
+          <td>
+        </form>
+      </tr>
     }
   </tbody>
- 
 </table>
