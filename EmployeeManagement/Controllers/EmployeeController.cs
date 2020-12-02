@@ -36,6 +36,14 @@ public class EmployeeController : Controller
 
         return RedirectToAction(nameof(Index));
     }
+    [HttpPost]
+    public ActionResult Edit(Employee employee)  // Model binding
+    {
+        db.Employees.Update(employee);
+        db.SaveChanges();
+
+        return RedirectToAction(nameof(Index));
+    }
 
     [HttpPost]
     public ActionResult Delete(int id)
