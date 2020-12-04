@@ -14397,8 +14397,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Department/Add.cshtml",
+      "TargetPath": "Views\\Department\\Add.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Department/Index.cshtml",
+      "TargetPath": "Views\\Department\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14429,6 +14439,16 @@
     {
       "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Employee/Edit.cshtml",
       "TargetPath": "Views\\Employee\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Department/Edit.cshtml",
+      "TargetPath": "Views\\Department\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Department/Details.cshtml",
+      "TargetPath": "Views\\Department\\Details.cshtml",
       "FileKind": "mvc"
     },
     {

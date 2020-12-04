@@ -2,25 +2,25 @@ using System.Linq;
 using EmployeeManagement.Data;
 using Microsoft.AspNetCore.Mvc;
 
-public class EmployeeController : Controller
+public class DepartmentController : Controller
 {
     private EMSContext db;
 
-    public EmployeeController(EMSContext _db)
+    public DepartmentController(EMSContext _db)
     {
         db = _db;
     }
 
     public ActionResult Index()
     {
-        var employees = db.Employees.ToList();
-        return View(employees);
+        var departments = db.Departments.ToList();
+        return View(departments);
     }
 
     public ActionResult Details(int id)
     {
-        var employee = db.Employees.Find(id);
-        return View(employee);
+        var department = db.Departments.Find(id);
+        return View(department);
     }
 
     public ActionResult Add()
@@ -29,9 +29,9 @@ public class EmployeeController : Controller
     }
 
     [HttpPost]
-    public ActionResult Add(Employee employee)  // Model binding
+    public ActionResult Add(Department department)  // Model binding
     {
-        db.Employees.Add(employee);
+        db.Departments.Add(department);
         db.SaveChanges();
 
         return RedirectToAction(nameof(Index));
@@ -39,15 +39,15 @@ public class EmployeeController : Controller
 
     public ActionResult Edit(int id)
     {
-        var employee = db.Employees.Find(id);
-        return View(employee);
+        var department = db.Departments.Find(id);
+        return View(department);
     }
 
     [HttpPost]
-    public ActionResult Edit(Employee employee)
+    public ActionResult Edit(Department department)
     {
-        db.Employees.Attach(employee);
-        db.Employees.Update(employee);
+        db.Departments.Attach(department);
+        db.Departments.Update(department);
         db.SaveChanges();
 
         return RedirectToAction(nameof(Index));
@@ -56,8 +56,8 @@ public class EmployeeController : Controller
     [HttpPost]
     public ActionResult Delete(int id)
     {
-        var employee = db.Employees.Find(id);
-        db.Employees.Remove(employee);
+        var department = db.Departments.Find(id);
+        db.Departments.Remove(department);
         db.SaveChanges();
 
         return RedirectToAction(nameof(Index));

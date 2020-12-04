@@ -1,14 +1,13 @@
 @model Employee
 
 @{
-    ViewData["Title"] = "Edit Employee";
+    ViewData["Title"] = "Update";
 }
 
-<h1>E</h1>
-
-@* tag helpers *@
+<h1>Update employee</h1>
 
 <form asp-controller="Employee" asp-action="Edit" method="POST">
+    <input type="hidden" asp-for="Id">
     <div class="form-group">
         <label asp-for="FirstName"></label>
         <input type="text" class="form-control" asp-for="FirstName" placeholder="First Name">
@@ -36,5 +35,5 @@
         <input type="number" class="form-control" asp-for="Salary" placeholder="Salary">
     </div>
 
-    <button type="submit" class="btn btn-primary">Add Employee</button>
+    <button type="submit" class="btn btn-primary">Update Employee</button>
 </form>
