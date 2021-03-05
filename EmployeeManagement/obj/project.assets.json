@@ -6062,19 +6062,19 @@
     ]
   },
   "packageFolders": {
-    "/home/shree/.nuget/packages/": {}
+    "/Users/sagarshree/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/shree/Dot Net/MBM-B/EmployeeManagement/EmployeeManagement.csproj",
+      "projectUniqueName": "/Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/EmployeeManagement.csproj",
       "projectName": "EmployeeManagement",
-      "projectPath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/EmployeeManagement.csproj",
-      "packagesPath": "/home/shree/.nuget/packages/",
-      "outputPath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/obj/",
+      "projectPath": "/Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/EmployeeManagement.csproj",
+      "packagesPath": "/Users/sagarshree/.nuget/packages/",
+      "outputPath": "/Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/shree/.nuget/NuGet/NuGet.Config"
+        "/Users/sagarshree/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -6133,7 +6133,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
       }
     }
   }

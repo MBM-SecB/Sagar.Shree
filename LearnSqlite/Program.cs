@@ -13,8 +13,8 @@ namespace LearnSqlite
             using (var connection = new SqliteConnection(connectionStringBuilder.ConnectionString))
             {
                 connection.Open();
-                var tableCmd = connection.CREATE;
-                tableCmd.CommandText = "CREATE TABLE favourire_beers(name VARCHAR(50)) ";
+                // var tableCmd = connection.CREATE;
+                // tableCmd.CommandText = "CREATE TABLE favourire_beers(name VARCHAR(50)) ";
 
             };
 

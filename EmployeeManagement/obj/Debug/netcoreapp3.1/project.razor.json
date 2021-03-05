@@ -1,5 +1,5 @@
 {
-  "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/EmployeeManagement.csproj",
+  "FilePath": "/Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/EmployeeManagement.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14392,78 +14392,78 @@
   "RootNamespace": "EmployeeManagement",
   "Documents": [
     {
-      "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/_ViewImports.cshtml",
+      "FilePath": "/Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Department/Add.cshtml",
-      "TargetPath": "Views\\Department\\Add.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Shared/Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Department/Index.cshtml",
-      "TargetPath": "Views\\Department\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Employee/Details.cshtml",
-      "TargetPath": "Views\\Employee\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Employee/Index.cshtml",
-      "TargetPath": "Views\\Employee\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Employee/Edit.cshtml",
-      "TargetPath": "Views\\Employee\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Department/Edit.cshtml",
+      "FilePath": "/Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/Views/Department/Edit.cshtml",
       "TargetPath": "Views\\Department\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Department/Details.cshtml",
-      "TargetPath": "Views\\Department\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Employee/Add.cshtml",
+      "FilePath": "/Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/Views/Employee/Add.cshtml",
       "TargetPath": "Views\\Employee\\Add.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "FilePath": "/Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/Views/Employee/Index.cshtml",
+      "TargetPath": "Views\\Employee\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/Views/Employee/Edit.cshtml",
+      "TargetPath": "Views\\Employee\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/Views/_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/Views/Department/Details.cshtml",
+      "TargetPath": "Views\\Department\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/Views/Department/Index.cshtml",
+      "TargetPath": "Views\\Department\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/Views/Employee/Details.cshtml",
+      "TargetPath": "Views\\Employee\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/shree/Dot Net/MBM-B/EmployeeManagement/Views/_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "/Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/Views/Shared/Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/Views/Home/Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/Views/Department/Add.cshtml",
+      "TargetPath": "Views\\Department\\Add.cshtml",
       "FileKind": "mvc"
     }
   ],
