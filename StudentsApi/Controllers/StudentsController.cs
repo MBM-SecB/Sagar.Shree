@@ -1,11 +1,13 @@
 
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-[Route("students")]
+using StudentsApi.Models;
+[Route("api/students")]
 [ApiController]
 public class StudentsController : ControllerBase
 {
     [HttpGet]
-    [Route("all")]
+    [Route("id")]
     public ActionResult GetAllStudents()
     {
         var students = new string[] { "Dipesh", "Swostika" };
@@ -15,5 +17,31 @@ public class StudentsController : ControllerBase
             return NotFound();
         }
         return Ok(students);
+    }
+    [HttpGet]
+    [Route("{name}")]
+    public ActionResult GetStudentByName(string name)
+    {
+        var students = new string[] { "Sagar", "Dipesh" };
+        var searchedStudent = students.Where((x) => x == name).FirstOrDefault();
+        if (searchedStudent != null)
+        {
+
+
+            return Ok(searchedStudent);
+        }
+        return NotFound();
+
+    }
+
+    [HttpPost]
+    [Route("{add}")]
+    public ActionResult CreateStudent(Student student)
+    {
+        if (student == null)
+            return BadRequest();
+
+        return Created("", student);
+
     }
 }
