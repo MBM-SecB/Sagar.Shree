@@ -208,3 +208,4 @@
 /Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/obj/Debug/netcoreapp3.1/EmployeeManagement.dll
 /Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/obj/Debug/netcoreapp3.1/EmployeeManagement.pdb
 /Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/obj/Debug/netcoreapp3.1/EmployeeManagement.genruntimeconfig.cache
+/Users/sagarshree/Projects/Dot Net/Sagar.Shree/EmployeeManagement/obj/Debug/netcoreapp3.1/scopedcss/bundle/EmployeeManagement.styles.css

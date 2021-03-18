@@ -14,7 +14,7 @@ export class FetchData extends Component {
 
   static renderForecastsTable(forecasts) {
     return (
-      <table className='table table-striped table-dark' aria-labelledby="tabelLabel">
+      <table className='table table-striped' aria-labelledby="tabelLabel">
         <thead>
           <tr>
             <th>Date</th>
@@ -39,7 +39,7 @@ export class FetchData extends Component {
 
   render() {
     let contents = this.state.loading
-      ? <p><em>The data is being pulled from WeatherController.cs through api</em></p>
+      ? <p><em>Loading...</em></p>
       : FetchData.renderForecastsTable(this.state.forecasts);
 
     return (

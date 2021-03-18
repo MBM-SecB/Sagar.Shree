@@ -1,3 +1,4 @@
+
 using System;
 
 namespace StudentsApi.Models
@@ -8,5 +9,9 @@ namespace StudentsApi.Models
         public string Name { get; set; }
         public string Address { get; set; }
         public DateTime Dob { get; set; }
+
+
+
+
     }
 }

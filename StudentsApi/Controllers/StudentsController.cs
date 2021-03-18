@@ -10,6 +10,7 @@ public class StudentsController : ControllerBase
     [Route("id")]
     public ActionResult GetAllStudents()
     {
+
         var students = new string[] { "Dipesh", "Swostika" };
         students = null;
         if (students == null)
@@ -22,7 +23,7 @@ public class StudentsController : ControllerBase
     [Route("{name}")]
     public ActionResult GetStudentByName(string name)
     {
-        var students = new string[] { "Sagar", "Dipesh" };
+        var students = new string[] { "Sagar", "Madan" };
         var searchedStudent = students.Where((x) => x == name).FirstOrDefault();
         if (searchedStudent != null)
         {

@@ -23,6 +23,8 @@ public class Department
     [Required(ErrorMessage = "Code is required.")]
     public string Code { get; set; }
 
+    
+
 
 
 
